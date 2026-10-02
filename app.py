@@ -150,12 +150,12 @@ with tab4:
 st.divider()
 st.caption("Illustrative model. Mine assumptions are placeholders, not a real project. Not investment advice.")
 
-# Developer watermark: fixed to the bottom-right corner, with a clickable email link
+# Developer watermark: fixed to the bottom-center, with a clickable email link
 st.markdown("<div style='height:40px'></div>", unsafe_allow_html=True)
 st.markdown(
     """
-    <div style="position: fixed; bottom: 8px; right: 16px; z-index: 999;
-                font-size: 12px; opacity: 0.8;">
+    <div style="position: fixed; bottom: 8px; left: 50%; transform: translateX(-50%);
+                z-index: 999; font-size: 12px; opacity: 0.8; white-space: nowrap;">
         Developer: <a href="mailto:fungaisamanga09@gmail.com">fungaisamanga09@gmail.com</a>
     </div>
     """,
