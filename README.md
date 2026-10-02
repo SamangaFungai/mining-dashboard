@@ -4,7 +4,7 @@ An interactive Streamlit dashboard that links commodity price risk to mine econo
 copper, forecast the price, and see how price uncertainty flows through to NPV, IRR and the probability that a
 hypothetical mine loses money.
 
-**Live demo:** _add your Streamlit link here after deploying_
+**Live demo:** _https://mining-dashboard09.streamlit.app_
 
 ## What it does
 
